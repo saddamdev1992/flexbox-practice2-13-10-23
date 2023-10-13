@@ -8,7 +8,6 @@
   width: 500px;
   background-color: antiquewhite;
   display: flex;
-  align-items: center;
 }
 .container img {
 }
@@ -19,4 +18,10 @@
   border-radius: 0.4rem;
   padding: 5px;
   display: flex;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 5px;
 }
